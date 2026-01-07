@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblPenjualan" msprop:Generator_TableClassName="tblPenjualanDataTable" msprop:Generator_TableVarName="tabletblPenjualan" msprop:Generator_TablePropName="tblPenjualan" msprop:Generator_RowDeletingName="tblPenjualanRowDeleting" msprop:Generator_RowChangingName="tblPenjualanRowChanging" msprop:Generator_RowEvHandlerName="tblPenjualanRowChangeEventHandler" msprop:Generator_RowDeletedName="tblPenjualanRowDeleted" msprop:Generator_UserTableName="tblPenjualan" msprop:Generator_RowChangedName="tblPenjualanRowChanged" msprop:Generator_RowEvArgName="tblPenjualanRowChangeEvent" msprop:Generator_RowClassName="tblPenjualanRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:string" minOccurs="0" />
+              <xs:element name="nota" msprop:Generator_ColumnVarNameInTable="columnnota" msprop:Generator_ColumnPropNameInRow="nota" msprop:Generator_ColumnPropNameInTable="notaColumn" msprop:Generator_UserColumnName="nota" type="xs:string" minOccurs="0" />
+              <xs:element name="tgl_nota" msprop:Generator_ColumnVarNameInTable="columntgl_nota" msprop:Generator_ColumnPropNameInRow="tgl_nota" msprop:Generator_ColumnPropNameInTable="tgl_notaColumn" msprop:Generator_UserColumnName="tgl_nota" type="xs:string" minOccurs="0" />
+              <xs:element name="kode_brg" msprop:Generator_ColumnVarNameInTable="columnkode_brg" msprop:Generator_ColumnPropNameInRow="kode_brg" msprop:Generator_ColumnPropNameInTable="kode_brgColumn" msprop:Generator_UserColumnName="kode_brg" type="xs:string" minOccurs="0" />
+              <xs:element name="nama_brg" msprop:Generator_ColumnVarNameInTable="columnnama_brg" msprop:Generator_ColumnPropNameInRow="nama_brg" msprop:Generator_ColumnPropNameInTable="nama_brgColumn" msprop:Generator_UserColumnName="nama_brg" type="xs:string" minOccurs="0" />
+              <xs:element name="qty" msprop:Generator_ColumnVarNameInTable="columnqty" msprop:Generator_ColumnPropNameInRow="qty" msprop:Generator_ColumnPropNameInTable="qtyColumn" msprop:Generator_UserColumnName="qty" type="xs:string" minOccurs="0" />
+              <xs:element name="harga" msprop:Generator_ColumnVarNameInTable="columnharga" msprop:Generator_ColumnPropNameInRow="harga" msprop:Generator_ColumnPropNameInTable="hargaColumn" msprop:Generator_UserColumnName="harga" type="xs:string" minOccurs="0" />
+              <xs:element name="unit" msprop:Generator_ColumnVarNameInTable="columnunit" msprop:Generator_ColumnPropNameInRow="unit" msprop:Generator_ColumnPropNameInTable="unitColumn" msprop:Generator_UserColumnName="unit" type="xs:string" minOccurs="0" />
+              <xs:element name="subtotal" msprop:Generator_ColumnVarNameInTable="columnsubtotal" msprop:Generator_ColumnPropNameInRow="subtotal" msprop:Generator_ColumnPropNameInTable="subtotalColumn" msprop:Generator_UserColumnName="subtotal" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
